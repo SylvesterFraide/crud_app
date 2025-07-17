@@ -12,10 +12,9 @@ const Home = () => {
     localStorage.setItem("Age", age);
   }
 
-  //function to delete to delete an entry
+  //function to delete an entry
   function deleted(id) {
-    let index = Data
-    .map(function (e) {
+    let index = Data.map(function (e) {
       return e.id;
     }) 
     .indexOf(id); 

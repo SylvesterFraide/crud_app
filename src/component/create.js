@@ -53,7 +53,7 @@ const Create = () => {
         </button>
 
         {/*redirecting back to home page*/}
-        <Link to="/home">
+        <Link to="/">
           <button>
             Home
           </button>
